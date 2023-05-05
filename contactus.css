@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240,244,245);
+}
+header{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 500px;
+}
+header nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+a:hover{
+    text-decoration: underline;
+}
+.form{
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    padding: 20px;
+    height: 300px;
+    width: 250px;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+form legend{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+form label{
+    font-size: 18px;
+    font-weight: 500;
+}
+form input{
+    height: 22px;
+    border: none;
+    border-radius: 5px;
+}
+form textarea{
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+button{
+    font-size: 18px;
+    height: 30px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(34,188,126);
+}
+button:hover{
+    cursor: pointer;
+    color: rgb(34,188,126);
+    background-color: white;
+    border: 2px solid rgb(34,188,126);
+}
